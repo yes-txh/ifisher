@@ -1,0 +1,73 @@
+/*
+    header styles
+*/
+
+/* Global properties ======================================================== */
+body { 
+	background:#f8fdf8; 
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1.125em;
+	color:#242424;
+}
+
+/* Header */
+header {
+	height:45px;
+	overflow:hidden;
+	background:#f8fdf8;
+	float:left;
+	width:600px;
+}
+h1 {
+	font-size:25px;
+	/*color:#fff;*/
+	font-weight:normal;
+	position:relative;
+	left:10px;
+	top:-5px;
+}
+/*#web-logo {
+	/*background:url(../images/logo.png) no-repeat 0 0;*/
+	/*margin: 10px 20px;*/
+	/*position:absolute;*/
+	/*left:32px;
+	top:-20px;*/
+      
+
+	/*font-size:27px; 
+}*/
+
+.totaluser {
+	float:right;
+	margin-top:3px;
+	margin-right:10px;
+	text-align:right;
+	/*position:absolute;
+	right:30px;
+	top:3px;*/
+
+	/*float:right;
+	float:top;*/
+}
+span.username{
+	margin-right:10px;
+	color:#1199aa;
+	text-align:right;
+}
+span.user{
+	width:450px;
+	background:#118080;
+	border: 1px solid #eee;
+	padding:8px;
+}
+.mgt,.logout{
+	font-size:16px;
+	color:#ffffff;
+	background:#118080;
+	line-height:30px;
+	margin: 0px 6px;
+/*	line-heigh:30px;*/
+	text-decoration:none;
+	text-align:center;
+}

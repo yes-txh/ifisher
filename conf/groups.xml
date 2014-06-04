@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<groups>
+    <privilege_factor>3</privilege_factor>
+    <group>
+        <name>common</name>
+        <quota_shares>200</quota_shares>
+    </group>
+    <group>
+        <name>Group B</name>
+        <quota_shares>100</quota_shares>
+        <max_limit>1.23</max_limit>
+    </group>
+    <group>
+        <name>Group C</name>
+        <quota_shares>100</quota_shares>
+        <max_limit>0.75</max_limit>
+    </group>
+</groups>

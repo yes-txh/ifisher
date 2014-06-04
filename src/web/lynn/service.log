@@ -1,0 +1,1154 @@
+2014-05-21 16:52:28,384 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 16:52:28,384 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 16:56:10,738 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 16:56:10,738 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 16:56:10,774 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 70, in job_add
+    timeout = form.cleaned_date["timeout"]
+AttributeError: 'JobSubmit' object has no attribute 'cleaned_date'
+2014-05-21 16:56:10,774 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 70, in job_add
+    timeout = form.cleaned_date["timeout"]
+AttributeError: 'JobSubmit' object has no attribute 'cleaned_date'
+2014-05-21 16:59:53,934 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 16:59:53,934 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 16:59:53,968 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
+    s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 16:59:53,968 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
+    s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:00:14,225 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
+    s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:00:14,225 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
+    s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:01:09,215 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
+    str(timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:01:09,215 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 85, in job_add
+    str(timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:01:22,066 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 17:01:22,066 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 17:01:22,107 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 86, in job_add
+    s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:01:22,107 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 86, in job_add
+    s = string.replace(s, "T_TIME", timeout)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:04:00,286 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 86, in job_add
+    fo.write(s)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:04:00,286 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 86, in job_add
+    fo.write(s)
+  File "/usr/lib/python2.7/string.py", line 519, in replace
+    return s.replace(old, new, maxreplace)
+TypeError: coercing to Unicode: need string or buffer, int found
+2014-05-21 17:14:32,183 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 17:14:32,183 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 17:14:32,222 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 111, in job_add
+    return HttpResponse("haha")
+NameError: global name 'HttpResponse' is not defined
+2014-05-21 17:14:32,222 ERROR Internal Server Error: /job_add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 115, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/home/yes/yesw/git/lynn-2.0.0/src/web/lynn/service/views.py", line 111, in job_add
+    return HttpResponse("haha")
+NameError: global name 'HttpResponse' is not defined
+2014-05-21 19:42:26,085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 19:42:26,085 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-21 19:43:13,011 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:43:13,011 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:43:13,012 ERROR set task info error
+2014-05-21 19:43:13,012 ERROR set task info error
+2014-05-21 19:43:14,867 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:43:14,867 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:43:14,868 ERROR set task info error
+2014-05-21 19:43:14,868 ERROR set task info error
+2014-05-21 19:44:31,155 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:44:31,155 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:44:31,155 ERROR set task info error
+2014-05-21 19:44:31,155 ERROR set task info error
+2014-05-21 19:44:33,011 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:44:33,011 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:44:33,011 ERROR set task info error
+2014-05-21 19:44:33,011 ERROR set task info error
+2014-05-21 19:45:49,299 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:45:49,299 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:45:49,299 ERROR set task info error
+2014-05-21 19:45:49,299 ERROR set task info error
+2014-05-21 19:45:51,155 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:45:51,155 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:45:51,155 ERROR set task info error
+2014-05-21 19:45:51,155 ERROR set task info error
+2014-05-21 19:47:07,443 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:47:07,443 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:47:07,443 ERROR set task info error
+2014-05-21 19:47:07,443 ERROR set task info error
+2014-05-21 19:47:09,299 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:47:09,299 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:47:09,299 ERROR set task info error
+2014-05-21 19:47:09,299 ERROR set task info error
+2014-05-21 19:48:25,587 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:48:25,587 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:48:25,587 ERROR set task info error
+2014-05-21 19:48:25,587 ERROR set task info error
+2014-05-21 19:48:27,443 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:48:27,443 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:48:27,443 ERROR set task info error
+2014-05-21 19:48:27,443 ERROR set task info error
+2014-05-21 19:49:43,731 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:49:43,731 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:49:43,731 ERROR set task info error
+2014-05-21 19:49:43,731 ERROR set task info error
+2014-05-21 19:49:45,587 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:49:45,587 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:49:45,587 ERROR set task info error
+2014-05-21 19:49:45,587 ERROR set task info error
+2014-05-21 19:51:01,875 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:51:01,875 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:51:01,875 ERROR set task info error
+2014-05-21 19:51:01,875 ERROR set task info error
+2014-05-21 19:51:03,731 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:51:03,731 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:51:03,731 ERROR set task info error
+2014-05-21 19:51:03,731 ERROR set task info error
+2014-05-21 19:52:20,019 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:52:20,019 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:52:20,019 ERROR set task info error
+2014-05-21 19:52:20,019 ERROR set task info error
+2014-05-21 19:52:21,875 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:52:21,875 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:52:21,875 ERROR set task info error
+2014-05-21 19:52:21,875 ERROR set task info error
+2014-05-21 19:53:38,163 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:53:38,163 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:53:38,163 ERROR set task info error
+2014-05-21 19:53:38,163 ERROR set task info error
+2014-05-21 19:53:40,019 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:53:40,019 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:53:40,019 ERROR set task info error
+2014-05-21 19:53:40,019 ERROR set task info error
+2014-05-21 19:54:56,307 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:54:56,307 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:54:56,307 ERROR set task info error
+2014-05-21 19:54:56,307 ERROR set task info error
+2014-05-21 19:54:58,163 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:54:58,163 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:54:58,163 ERROR set task info error
+2014-05-21 19:54:58,163 ERROR set task info error
+2014-05-21 19:56:14,451 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:56:14,451 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:56:14,452 ERROR set task info error
+2014-05-21 19:56:14,452 ERROR set task info error
+2014-05-21 19:56:16,307 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:56:16,307 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:56:16,307 ERROR set task info error
+2014-05-21 19:56:16,307 ERROR set task info error
+2014-05-21 19:57:32,595 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:57:32,595 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:57:32,595 ERROR set task info error
+2014-05-21 19:57:32,595 ERROR set task info error
+2014-05-21 19:57:34,451 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:57:34,451 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:57:34,451 ERROR set task info error
+2014-05-21 19:57:34,451 ERROR set task info error
+2014-05-21 19:58:50,739 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:58:50,739 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:58:50,739 ERROR set task info error
+2014-05-21 19:58:50,739 ERROR set task info error
+2014-05-21 19:58:52,595 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:58:52,595 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 19:58:52,595 ERROR set task info error
+2014-05-21 19:58:52,595 ERROR set task info error
+2014-05-21 20:00:08,883 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:00:08,883 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:00:08,883 ERROR set task info error
+2014-05-21 20:00:08,883 ERROR set task info error
+2014-05-21 20:00:10,739 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:00:10,739 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:00:10,739 ERROR set task info error
+2014-05-21 20:00:10,739 ERROR set task info error
+2014-05-21 20:01:27,027 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:01:27,027 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:01:27,027 ERROR set task info error
+2014-05-21 20:01:27,027 ERROR set task info error
+2014-05-21 20:01:28,883 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:01:28,883 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:01:28,883 ERROR set task info error
+2014-05-21 20:01:28,883 ERROR set task info error
+2014-05-21 20:02:45,171 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:02:45,171 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:02:45,171 ERROR set task info error
+2014-05-21 20:02:45,171 ERROR set task info error
+2014-05-21 20:02:47,027 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:02:47,027 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:02:47,027 ERROR set task info error
+2014-05-21 20:02:47,027 ERROR set task info error
+2014-05-21 20:04:03,315 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:04:03,315 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:04:03,315 ERROR set task info error
+2014-05-21 20:04:03,315 ERROR set task info error
+2014-05-21 20:04:05,171 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:04:05,171 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:04:05,171 ERROR set task info error
+2014-05-21 20:04:05,171 ERROR set task info error
+2014-05-21 20:05:21,459 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:05:21,459 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:05:21,459 ERROR set task info error
+2014-05-21 20:05:21,459 ERROR set task info error
+2014-05-21 20:05:23,315 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:05:23,315 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:05:23,315 ERROR set task info error
+2014-05-21 20:05:23,315 ERROR set task info error
+2014-05-21 20:06:39,603 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:06:39,603 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:06:39,603 ERROR set task info error
+2014-05-21 20:06:39,603 ERROR set task info error
+2014-05-21 20:06:41,459 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:06:41,459 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:06:41,459 ERROR set task info error
+2014-05-21 20:06:41,459 ERROR set task info error
+2014-05-21 20:07:57,747 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:07:57,747 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:07:57,747 ERROR set task info error
+2014-05-21 20:07:57,747 ERROR set task info error
+2014-05-21 20:07:59,603 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:07:59,603 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:07:59,603 ERROR set task info error
+2014-05-21 20:07:59,603 ERROR set task info error
+2014-05-21 20:09:15,891 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:09:15,891 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:09:15,891 ERROR set task info error
+2014-05-21 20:09:15,891 ERROR set task info error
+2014-05-21 20:09:17,747 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:09:17,747 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:09:17,747 ERROR set task info error
+2014-05-21 20:09:17,747 ERROR set task info error
+2014-05-21 20:10:34,035 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:10:34,035 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:10:34,035 ERROR set task info error
+2014-05-21 20:10:34,035 ERROR set task info error
+2014-05-21 20:10:35,891 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:10:35,891 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:10:35,892 ERROR set task info error
+2014-05-21 20:10:35,892 ERROR set task info error
+2014-05-21 20:11:52,179 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:11:52,179 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:11:52,179 ERROR set task info error
+2014-05-21 20:11:52,179 ERROR set task info error
+2014-05-21 20:11:54,035 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:11:54,035 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:11:54,035 ERROR set task info error
+2014-05-21 20:11:54,035 ERROR set task info error
+2014-05-21 20:13:10,323 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:13:10,323 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:13:10,323 ERROR set task info error
+2014-05-21 20:13:10,323 ERROR set task info error
+2014-05-21 20:13:12,179 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:13:12,179 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:13:12,179 ERROR set task info error
+2014-05-21 20:13:12,179 ERROR set task info error
+2014-05-21 20:14:28,467 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:14:28,467 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:14:28,467 ERROR set task info error
+2014-05-21 20:14:28,467 ERROR set task info error
+2014-05-21 20:14:30,323 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:14:30,323 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:14:30,323 ERROR set task info error
+2014-05-21 20:14:30,323 ERROR set task info error
+2014-05-21 20:15:46,611 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:15:46,611 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:15:46,611 ERROR set task info error
+2014-05-21 20:15:46,611 ERROR set task info error
+2014-05-21 20:15:48,467 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:15:48,467 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:15:48,467 ERROR set task info error
+2014-05-21 20:15:48,467 ERROR set task info error
+2014-05-21 20:17:04,755 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:17:04,755 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:17:04,755 ERROR set task info error
+2014-05-21 20:17:04,755 ERROR set task info error
+2014-05-21 20:17:06,611 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:17:06,611 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:17:06,611 ERROR set task info error
+2014-05-21 20:17:06,611 ERROR set task info error
+2014-05-21 20:18:22,899 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:18:22,899 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:18:22,899 ERROR set task info error
+2014-05-21 20:18:22,899 ERROR set task info error
+2014-05-21 20:18:24,755 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:18:24,755 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:18:24,755 ERROR set task info error
+2014-05-21 20:18:24,755 ERROR set task info error
+2014-05-21 20:19:41,043 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:19:41,043 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:19:41,043 ERROR set task info error
+2014-05-21 20:19:41,043 ERROR set task info error
+2014-05-21 20:19:42,899 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:19:42,899 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:19:42,899 ERROR set task info error
+2014-05-21 20:19:42,899 ERROR set task info error
+2014-05-21 20:20:59,187 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:20:59,187 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:20:59,187 ERROR set task info error
+2014-05-21 20:20:59,187 ERROR set task info error
+2014-05-21 20:21:01,043 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:21:01,043 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:21:01,043 ERROR set task info error
+2014-05-21 20:21:01,043 ERROR set task info error
+2014-05-21 20:22:17,331 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:22:17,331 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:22:17,331 ERROR set task info error
+2014-05-21 20:22:17,331 ERROR set task info error
+2014-05-21 20:22:19,187 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:22:19,187 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:22:19,187 ERROR set task info error
+2014-05-21 20:22:19,187 ERROR set task info error
+2014-05-21 20:23:35,475 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:23:35,475 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:23:35,475 ERROR set task info error
+2014-05-21 20:23:35,475 ERROR set task info error
+2014-05-21 20:23:37,331 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:23:37,331 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:23:37,331 ERROR set task info error
+2014-05-21 20:23:37,331 ERROR set task info error
+2014-05-21 20:24:53,619 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:24:53,619 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:24:53,619 ERROR set task info error
+2014-05-21 20:24:53,619 ERROR set task info error
+2014-05-21 20:24:55,475 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:24:55,475 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:24:55,475 ERROR set task info error
+2014-05-21 20:24:55,475 ERROR set task info error
+2014-05-21 20:26:11,763 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:26:11,763 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:26:11,763 ERROR set task info error
+2014-05-21 20:26:11,763 ERROR set task info error
+2014-05-21 20:26:13,619 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:26:13,619 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:26:13,619 ERROR set task info error
+2014-05-21 20:26:13,619 ERROR set task info error
+2014-05-21 20:27:29,907 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:27:29,907 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:27:29,907 ERROR set task info error
+2014-05-21 20:27:29,907 ERROR set task info error
+2014-05-21 20:27:31,763 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:27:31,763 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:27:31,763 ERROR set task info error
+2014-05-21 20:27:31,763 ERROR set task info error
+2014-05-21 20:28:48,051 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:28:48,051 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:28:48,051 ERROR set task info error
+2014-05-21 20:28:48,051 ERROR set task info error
+2014-05-21 20:28:49,907 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:28:49,907 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:28:49,907 ERROR set task info error
+2014-05-21 20:28:49,907 ERROR set task info error
+2014-05-21 20:30:06,195 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:30:06,195 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:30:06,196 ERROR set task info error
+2014-05-21 20:30:06,196 ERROR set task info error
+2014-05-21 20:30:08,051 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:30:08,051 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:30:08,051 ERROR set task info error
+2014-05-21 20:30:08,051 ERROR set task info error
+2014-05-21 20:31:24,339 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:31:24,339 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:31:24,339 ERROR set task info error
+2014-05-21 20:31:24,339 ERROR set task info error
+2014-05-21 20:31:26,195 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:31:26,195 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:31:26,195 ERROR set task info error
+2014-05-21 20:31:26,195 ERROR set task info error
+2014-05-21 20:32:42,483 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:32:42,483 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:32:42,483 ERROR set task info error
+2014-05-21 20:32:42,483 ERROR set task info error
+2014-05-21 20:32:44,339 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:32:44,339 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:32:44,339 ERROR set task info error
+2014-05-21 20:32:44,339 ERROR set task info error
+2014-05-21 20:34:00,627 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:34:00,627 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:34:00,627 ERROR set task info error
+2014-05-21 20:34:00,627 ERROR set task info error
+2014-05-21 20:34:02,483 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:34:02,483 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:34:02,483 ERROR set task info error
+2014-05-21 20:34:02,483 ERROR set task info error
+2014-05-21 20:35:18,771 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:35:18,771 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:35:18,771 ERROR set task info error
+2014-05-21 20:35:18,771 ERROR set task info error
+2014-05-21 20:35:20,627 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:35:20,627 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:35:20,627 ERROR set task info error
+2014-05-21 20:35:20,627 ERROR set task info error
+2014-05-21 20:36:36,915 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:36:36,915 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:36:36,915 ERROR set task info error
+2014-05-21 20:36:36,915 ERROR set task info error
+2014-05-21 20:36:38,771 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:36:38,771 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:36:38,771 ERROR set task info error
+2014-05-21 20:36:38,771 ERROR set task info error
+2014-05-21 20:37:55,059 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:37:55,059 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:37:55,059 ERROR set task info error
+2014-05-21 20:37:55,059 ERROR set task info error
+2014-05-21 20:37:56,915 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:37:56,915 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:37:56,915 ERROR set task info error
+2014-05-21 20:37:56,915 ERROR set task info error
+2014-05-21 20:39:13,203 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:39:13,203 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:39:13,203 ERROR set task info error
+2014-05-21 20:39:13,203 ERROR set task info error
+2014-05-21 20:39:15,059 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:39:15,059 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:39:15,059 ERROR set task info error
+2014-05-21 20:39:15,059 ERROR set task info error
+2014-05-21 20:40:31,347 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:40:31,347 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:40:31,347 ERROR set task info error
+2014-05-21 20:40:31,347 ERROR set task info error
+2014-05-21 20:40:33,203 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:40:33,203 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:40:33,204 ERROR set task info error
+2014-05-21 20:40:33,204 ERROR set task info error
+2014-05-21 20:41:49,491 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:41:49,491 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:41:49,491 ERROR set task info error
+2014-05-21 20:41:49,491 ERROR set task info error
+2014-05-21 20:41:51,347 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:41:51,347 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:41:51,347 ERROR set task info error
+2014-05-21 20:41:51,347 ERROR set task info error
+2014-05-21 20:43:07,635 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:43:07,635 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:43:07,635 ERROR set task info error
+2014-05-21 20:43:07,635 ERROR set task info error
+2014-05-21 20:43:09,491 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:43:09,491 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:43:09,491 ERROR set task info error
+2014-05-21 20:43:09,491 ERROR set task info error
+2014-05-21 20:44:25,779 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:44:25,779 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:44:25,779 ERROR set task info error
+2014-05-21 20:44:25,779 ERROR set task info error
+2014-05-21 20:44:27,635 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:44:27,635 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:44:27,635 ERROR set task info error
+2014-05-21 20:44:27,635 ERROR set task info error
+2014-05-21 20:45:43,923 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:45:43,923 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:45:43,923 ERROR set task info error
+2014-05-21 20:45:43,923 ERROR set task info error
+2014-05-21 20:45:45,779 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:45:45,779 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:45:45,779 ERROR set task info error
+2014-05-21 20:45:45,779 ERROR set task info error
+2014-05-21 20:47:02,067 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:47:02,067 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:47:02,067 ERROR set task info error
+2014-05-21 20:47:02,067 ERROR set task info error
+2014-05-21 20:47:03,923 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:47:03,923 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:47:03,923 ERROR set task info error
+2014-05-21 20:47:03,923 ERROR set task info error
+2014-05-21 20:48:20,211 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:48:20,211 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:48:20,211 ERROR set task info error
+2014-05-21 20:48:20,211 ERROR set task info error
+2014-05-21 20:48:22,067 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:48:22,067 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:48:22,067 ERROR set task info error
+2014-05-21 20:48:22,067 ERROR set task info error
+2014-05-21 20:49:38,355 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:49:38,355 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:49:38,355 ERROR set task info error
+2014-05-21 20:49:38,355 ERROR set task info error
+2014-05-21 20:49:40,211 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:49:40,211 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:49:40,211 ERROR set task info error
+2014-05-21 20:49:40,211 ERROR set task info error
+2014-05-21 20:50:56,499 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:50:56,499 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:50:56,499 ERROR set task info error
+2014-05-21 20:50:56,499 ERROR set task info error
+2014-05-21 20:50:58,355 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:50:58,355 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:50:58,355 ERROR set task info error
+2014-05-21 20:50:58,355 ERROR set task info error
+2014-05-21 20:52:14,643 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:52:14,643 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:52:14,643 ERROR set task info error
+2014-05-21 20:52:14,643 ERROR set task info error
+2014-05-21 20:52:16,499 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:52:16,499 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:52:16,499 ERROR set task info error
+2014-05-21 20:52:16,499 ERROR set task info error
+2014-05-21 20:53:32,787 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:53:32,787 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:53:32,787 ERROR set task info error
+2014-05-21 20:53:32,787 ERROR set task info error
+2014-05-21 20:53:34,643 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:53:34,643 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:53:34,643 ERROR set task info error
+2014-05-21 20:53:34,643 ERROR set task info error
+2014-05-21 20:54:50,931 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:54:50,931 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:54:50,931 ERROR set task info error
+2014-05-21 20:54:50,931 ERROR set task info error
+2014-05-21 20:54:52,787 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:54:52,787 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:54:52,787 ERROR set task info error
+2014-05-21 20:54:52,787 ERROR set task info error
+2014-05-21 20:56:09,075 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:56:09,075 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:56:09,075 ERROR set task info error
+2014-05-21 20:56:09,075 ERROR set task info error
+2014-05-21 20:56:10,931 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:56:10,931 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:56:10,931 ERROR set task info error
+2014-05-21 20:56:10,931 ERROR set task info error
+2014-05-21 20:57:27,219 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:57:27,219 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:57:27,219 ERROR set task info error
+2014-05-21 20:57:27,219 ERROR set task info error
+2014-05-21 20:57:29,075 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:57:29,075 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:57:29,075 ERROR set task info error
+2014-05-21 20:57:29,075 ERROR set task info error
+2014-05-21 20:58:45,363 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:58:45,363 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:58:45,363 ERROR set task info error
+2014-05-21 20:58:45,363 ERROR set task info error
+2014-05-21 20:58:47,219 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:58:47,219 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 20:58:47,219 ERROR set task info error
+2014-05-21 20:58:47,219 ERROR set task info error
+2014-05-21 21:00:03,507 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:00:03,507 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:00:03,507 ERROR set task info error
+2014-05-21 21:00:03,507 ERROR set task info error
+2014-05-21 21:00:05,363 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:00:05,363 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:00:05,363 ERROR set task info error
+2014-05-21 21:00:05,363 ERROR set task info error
+2014-05-21 21:01:21,651 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:01:21,651 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:01:21,651 ERROR set task info error
+2014-05-21 21:01:21,651 ERROR set task info error
+2014-05-21 21:01:23,507 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:01:23,507 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:01:23,507 ERROR set task info error
+2014-05-21 21:01:23,507 ERROR set task info error
+2014-05-21 21:02:39,795 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:02:39,795 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:02:39,795 ERROR set task info error
+2014-05-21 21:02:39,795 ERROR set task info error
+2014-05-21 21:02:41,651 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:02:41,651 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:02:41,651 ERROR set task info error
+2014-05-21 21:02:41,651 ERROR set task info error
+2014-05-21 21:03:57,939 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:03:57,939 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:03:57,939 ERROR set task info error
+2014-05-21 21:03:57,939 ERROR set task info error
+2014-05-21 21:03:59,795 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:03:59,795 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:03:59,795 ERROR set task info error
+2014-05-21 21:03:59,795 ERROR set task info error
+2014-05-21 21:05:16,083 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:05:16,083 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:05:16,083 ERROR set task info error
+2014-05-21 21:05:16,083 ERROR set task info error
+2014-05-21 21:05:17,939 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:05:17,939 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:05:17,939 ERROR set task info error
+2014-05-21 21:05:17,939 ERROR set task info error
+2014-05-21 21:06:34,227 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:06:34,227 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:06:34,227 ERROR set task info error
+2014-05-21 21:06:34,227 ERROR set task info error
+2014-05-21 21:06:36,083 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:06:36,083 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:06:36,083 ERROR set task info error
+2014-05-21 21:06:36,083 ERROR set task info error
+2014-05-21 21:07:52,371 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:07:52,371 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:07:52,371 ERROR set task info error
+2014-05-21 21:07:52,371 ERROR set task info error
+2014-05-21 21:07:54,227 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:07:54,227 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:07:54,227 ERROR set task info error
+2014-05-21 21:07:54,227 ERROR set task info error
+2014-05-21 21:09:10,515 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:09:10,515 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:09:10,515 ERROR set task info error
+2014-05-21 21:09:10,515 ERROR set task info error
+2014-05-21 21:09:12,371 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:09:12,371 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:09:12,371 ERROR set task info error
+2014-05-21 21:09:12,371 ERROR set task info error
+2014-05-21 21:10:28,659 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:10:28,659 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:10:28,659 ERROR set task info error
+2014-05-21 21:10:28,659 ERROR set task info error
+2014-05-21 21:10:30,515 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:10:30,515 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:10:30,515 ERROR set task info error
+2014-05-21 21:10:30,515 ERROR set task info error
+2014-05-21 21:11:46,803 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:11:46,803 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:11:46,803 ERROR set task info error
+2014-05-21 21:11:46,803 ERROR set task info error
+2014-05-21 21:11:48,659 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:11:48,659 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:11:48,659 ERROR set task info error
+2014-05-21 21:11:48,659 ERROR set task info error
+2014-05-21 21:13:04,947 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:13:04,947 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:13:04,947 ERROR set task info error
+2014-05-21 21:13:04,947 ERROR set task info error
+2014-05-21 21:13:06,803 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:13:06,803 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:13:06,803 ERROR set task info error
+2014-05-21 21:13:06,803 ERROR set task info error
+2014-05-21 21:14:23,091 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:14:23,091 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:14:23,091 ERROR set task info error
+2014-05-21 21:14:23,091 ERROR set task info error
+2014-05-21 21:14:24,947 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:14:24,947 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:14:24,947 ERROR set task info error
+2014-05-21 21:14:24,947 ERROR set task info error
+2014-05-21 21:15:41,235 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:15:41,235 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:15:41,235 ERROR set task info error
+2014-05-21 21:15:41,235 ERROR set task info error
+2014-05-21 21:15:43,091 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:15:43,091 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:15:43,091 ERROR set task info error
+2014-05-21 21:15:43,091 ERROR set task info error
+2014-05-21 21:16:59,379 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:16:59,379 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:16:59,379 ERROR set task info error
+2014-05-21 21:16:59,379 ERROR set task info error
+2014-05-21 21:17:01,235 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:17:01,235 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:17:01,235 ERROR set task info error
+2014-05-21 21:17:01,235 ERROR set task info error
+2014-05-21 21:18:17,523 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:18:17,523 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:18:17,523 ERROR set task info error
+2014-05-21 21:18:17,523 ERROR set task info error
+2014-05-21 21:18:19,379 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:18:19,379 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:18:19,379 ERROR set task info error
+2014-05-21 21:18:19,379 ERROR set task info error
+2014-05-21 21:19:35,667 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:19:35,667 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:19:35,667 ERROR set task info error
+2014-05-21 21:19:35,667 ERROR set task info error
+2014-05-21 21:19:37,523 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:19:37,523 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:19:37,523 ERROR set task info error
+2014-05-21 21:19:37,523 ERROR set task info error
+2014-05-21 21:20:53,811 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:20:53,811 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:20:53,811 ERROR set task info error
+2014-05-21 21:20:53,811 ERROR set task info error
+2014-05-21 21:20:55,667 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:20:55,667 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:20:55,667 ERROR set task info error
+2014-05-21 21:20:55,667 ERROR set task info error
+2014-05-21 21:22:11,955 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:22:11,955 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:22:11,955 ERROR set task info error
+2014-05-21 21:22:11,955 ERROR set task info error
+2014-05-21 21:22:13,811 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:22:13,811 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:22:13,811 ERROR set task info error
+2014-05-21 21:22:13,811 ERROR set task info error
+2014-05-21 21:23:30,099 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:23:30,099 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:23:30,099 ERROR set task info error
+2014-05-21 21:23:30,099 ERROR set task info error
+2014-05-21 21:23:31,955 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:23:31,955 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:23:31,955 ERROR set task info error
+2014-05-21 21:23:31,955 ERROR set task info error
+2014-05-21 21:24:48,243 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:24:48,243 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:24:48,243 ERROR set task info error
+2014-05-21 21:24:48,243 ERROR set task info error
+2014-05-21 21:24:50,099 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:24:50,099 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:24:50,099 ERROR set task info error
+2014-05-21 21:24:50,099 ERROR set task info error
+2014-05-21 21:26:06,387 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:26:06,387 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:26:06,387 ERROR set task info error
+2014-05-21 21:26:06,387 ERROR set task info error
+2014-05-21 21:26:08,243 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:26:08,243 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:26:08,243 ERROR set task info error
+2014-05-21 21:26:08,243 ERROR set task info error
+2014-05-21 21:27:24,531 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:27:24,531 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:27:24,531 ERROR set task info error
+2014-05-21 21:27:24,531 ERROR set task info error
+2014-05-21 21:27:26,387 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:27:26,387 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:27:26,387 ERROR set task info error
+2014-05-21 21:27:26,387 ERROR set task info error
+2014-05-21 21:28:42,675 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:28:42,675 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:28:42,676 ERROR set task info error
+2014-05-21 21:28:42,676 ERROR set task info error
+2014-05-21 21:28:44,531 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:28:44,531 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:28:44,531 ERROR set task info error
+2014-05-21 21:28:44,531 ERROR set task info error
+2014-05-21 21:30:00,819 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:30:00,819 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:30:00,819 ERROR set task info error
+2014-05-21 21:30:00,819 ERROR set task info error
+2014-05-21 21:30:02,675 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:30:02,675 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:30:02,675 ERROR set task info error
+2014-05-21 21:30:02,675 ERROR set task info error
+2014-05-21 21:31:18,963 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:31:18,963 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:31:18,963 ERROR set task info error
+2014-05-21 21:31:18,963 ERROR set task info error
+2014-05-21 21:31:20,819 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:31:20,819 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:31:20,819 ERROR set task info error
+2014-05-21 21:31:20,819 ERROR set task info error
+2014-05-21 21:32:37,107 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:32:37,107 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:32:37,107 ERROR set task info error
+2014-05-21 21:32:37,107 ERROR set task info error
+2014-05-21 21:32:38,963 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:32:38,963 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:32:38,963 ERROR set task info error
+2014-05-21 21:32:38,963 ERROR set task info error
+2014-05-21 21:33:55,251 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:33:55,251 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:33:55,251 ERROR set task info error
+2014-05-21 21:33:55,251 ERROR set task info error
+2014-05-21 21:33:57,107 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:33:57,107 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:33:57,107 ERROR set task info error
+2014-05-21 21:33:57,107 ERROR set task info error
+2014-05-21 21:35:13,395 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:35:13,395 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:35:13,395 ERROR set task info error
+2014-05-21 21:35:13,395 ERROR set task info error
+2014-05-21 21:35:15,251 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:35:15,251 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:35:15,251 ERROR set task info error
+2014-05-21 21:35:15,251 ERROR set task info error
+2014-05-21 21:36:31,539 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:36:31,539 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:36:31,539 ERROR set task info error
+2014-05-21 21:36:31,539 ERROR set task info error
+2014-05-21 21:36:33,395 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:36:33,395 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:36:33,395 ERROR set task info error
+2014-05-21 21:36:33,395 ERROR set task info error
+2014-05-21 21:37:49,683 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:37:49,683 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:37:49,685 ERROR set task info error
+2014-05-21 21:37:49,685 ERROR set task info error
+2014-05-21 21:37:51,539 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:37:51,539 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:37:51,539 ERROR set task info error
+2014-05-21 21:37:51,539 ERROR set task info error
+2014-05-21 21:39:07,827 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:39:07,827 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:39:07,827 ERROR set task info error
+2014-05-21 21:39:07,827 ERROR set task info error
+2014-05-21 21:39:09,683 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:39:09,683 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:39:09,683 ERROR set task info error
+2014-05-21 21:39:09,683 ERROR set task info error
+2014-05-21 21:40:25,971 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:40:25,971 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:40:25,971 ERROR set task info error
+2014-05-21 21:40:25,971 ERROR set task info error
+2014-05-21 21:40:27,827 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:40:27,827 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:40:27,827 ERROR set task info error
+2014-05-21 21:40:27,827 ERROR set task info error
+2014-05-21 21:41:44,115 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:41:44,115 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:41:44,115 ERROR set task info error
+2014-05-21 21:41:44,115 ERROR set task info error
+2014-05-21 21:41:45,971 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:41:45,971 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:41:45,971 ERROR set task info error
+2014-05-21 21:41:45,971 ERROR set task info error
+2014-05-21 21:43:02,259 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:43:02,259 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:43:02,259 ERROR set task info error
+2014-05-21 21:43:02,259 ERROR set task info error
+2014-05-21 21:43:04,115 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:43:04,115 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:43:04,116 ERROR set task info error
+2014-05-21 21:43:04,116 ERROR set task info error
+2014-05-21 21:44:20,403 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:44:20,403 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:44:20,403 ERROR set task info error
+2014-05-21 21:44:20,403 ERROR set task info error
+2014-05-21 21:44:22,259 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:44:22,259 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:44:22,259 ERROR set task info error
+2014-05-21 21:44:22,259 ERROR set task info error
+2014-05-21 21:45:38,547 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:45:38,547 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:45:38,547 ERROR set task info error
+2014-05-21 21:45:38,547 ERROR set task info error
+2014-05-21 21:45:40,403 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:45:40,403 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:45:40,403 ERROR set task info error
+2014-05-21 21:45:40,403 ERROR set task info error
+2014-05-21 21:46:56,691 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:46:56,691 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:46:56,691 ERROR set task info error
+2014-05-21 21:46:56,691 ERROR set task info error
+2014-05-21 21:46:58,547 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:46:58,547 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:46:58,547 ERROR set task info error
+2014-05-21 21:46:58,547 ERROR set task info error
+2014-05-21 21:48:14,835 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:48:14,835 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:48:14,835 ERROR set task info error
+2014-05-21 21:48:14,835 ERROR set task info error
+2014-05-21 21:48:16,691 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:48:16,691 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:48:16,691 ERROR set task info error
+2014-05-21 21:48:16,691 ERROR set task info error
+2014-05-21 21:49:32,979 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:49:32,979 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:49:32,979 ERROR set task info error
+2014-05-21 21:49:32,979 ERROR set task info error
+2014-05-21 21:49:34,835 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:49:34,835 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:49:34,835 ERROR set task info error
+2014-05-21 21:49:34,835 ERROR set task info error
+2014-05-21 21:50:51,123 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:50:51,123 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:50:51,123 ERROR set task info error
+2014-05-21 21:50:51,123 ERROR set task info error
+2014-05-21 21:50:52,979 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:50:52,979 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:50:52,979 ERROR set task info error
+2014-05-21 21:50:52,979 ERROR set task info error
+2014-05-21 21:52:09,267 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:52:09,267 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:52:09,267 ERROR set task info error
+2014-05-21 21:52:09,267 ERROR set task info error
+2014-05-21 21:52:11,123 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:52:11,123 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:52:11,123 ERROR set task info error
+2014-05-21 21:52:11,123 ERROR set task info error
+2014-05-21 21:53:27,411 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:53:27,411 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:53:27,411 ERROR set task info error
+2014-05-21 21:53:27,411 ERROR set task info error
+2014-05-21 21:53:29,267 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:53:29,267 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:53:29,267 ERROR set task info error
+2014-05-21 21:53:29,267 ERROR set task info error
+2014-05-21 21:54:45,555 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:54:45,555 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:54:45,555 ERROR set task info error
+2014-05-21 21:54:45,555 ERROR set task info error
+2014-05-21 21:54:47,411 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:54:47,411 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:54:47,411 ERROR set task info error
+2014-05-21 21:54:47,411 ERROR set task info error
+2014-05-21 21:56:03,699 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:56:03,699 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:56:03,699 ERROR set task info error
+2014-05-21 21:56:03,699 ERROR set task info error
+2014-05-21 21:56:05,555 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:56:05,555 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:56:05,555 ERROR set task info error
+2014-05-21 21:56:05,555 ERROR set task info error
+2014-05-21 21:57:21,843 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:57:21,843 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:57:21,843 ERROR set task info error
+2014-05-21 21:57:21,843 ERROR set task info error
+2014-05-21 21:57:23,699 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:57:23,699 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:57:23,699 ERROR set task info error
+2014-05-21 21:57:23,699 ERROR set task info error
+2014-05-21 21:58:39,987 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:58:39,987 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:58:39,987 ERROR set task info error
+2014-05-21 21:58:39,987 ERROR set task info error
+2014-05-21 21:58:41,843 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:58:41,843 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:58:41,843 ERROR set task info error
+2014-05-21 21:58:41,843 ERROR set task info error
+2014-05-21 21:59:58,131 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:59:58,131 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:59:58,131 ERROR set task info error
+2014-05-21 21:59:58,131 ERROR set task info error
+2014-05-21 21:59:59,987 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:59:59,987 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 21:59:59,987 ERROR set task info error
+2014-05-21 21:59:59,987 ERROR set task info error
+2014-05-21 22:01:16,275 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 22:01:16,275 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 22:01:16,275 ERROR set task info error
+2014-05-21 22:01:16,275 ERROR set task info error
+2014-05-21 22:01:18,131 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 22:01:18,131 ERROR Could not connect to 10.128.85.10:9999
+2014-05-21 22:01:18,131 ERROR set task info error
+2014-05-21 22:01:18,131 ERROR set task info error
+2014-05-22 10:56:30,642 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 10:56:30,642 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 10:57:15,942 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 10:57:15,942 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 10:57:15,943 ERROR set task info error
+2014-05-22 10:57:15,943 ERROR set task info error
+2014-05-22 10:57:18,053 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 10:57:18,053 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 10:57:18,054 ERROR set task info error
+2014-05-22 10:57:18,054 ERROR set task info error
+2014-05-22 10:59:43,679 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 10:59:43,679 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:04:08,678 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:04:08,678 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:04:08,679 ERROR set task info error
+2014-05-22 11:04:08,679 ERROR set task info error
+2014-05-22 11:04:08,934 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:04:08,934 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:04:08,934 ERROR set task info error
+2014-05-22 11:04:08,934 ERROR set task info error
+2014-05-22 11:04:45,298 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:04:45,298 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:05:26,821 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:05:26,821 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:05:26,822 ERROR set task info error
+2014-05-22 11:05:26,822 ERROR set task info error
+2014-05-22 11:05:27,077 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:05:27,077 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:05:27,078 ERROR set task info error
+2014-05-22 11:05:27,078 ERROR set task info error
+2014-05-22 11:06:44,965 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:06:44,965 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:06:44,966 ERROR set task info error
+2014-05-22 11:06:44,966 ERROR set task info error
+2014-05-22 11:06:45,221 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:06:45,221 ERROR Could not connect to 10.128.85.10:9999
+2014-05-22 11:06:45,222 ERROR set task info error
+2014-05-22 11:06:45,222 ERROR set task info error
+2014-05-22 11:07:55,456 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:07:55,456 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:17:10,058 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:17:10,058 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:20:42,957 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:42,957 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:42,958 ERROR set task info error
+2014-05-22 11:20:42,958 ERROR set task info error
+2014-05-22 11:20:43,251 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:43,251 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:43,260 ERROR set task info error
+2014-05-22 11:20:43,260 ERROR set task info error
+2014-05-22 11:20:46,266 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:20:46,266 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:20:57,963 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:57,963 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:57,963 ERROR set task info error
+2014-05-22 11:20:57,963 ERROR set task info error
+2014-05-22 11:20:58,268 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:58,268 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:20:58,269 ERROR set task info error
+2014-05-22 11:20:58,269 ERROR set task info error
+2014-05-22 11:22:13,059 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:13,059 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:13,059 ERROR set task info error
+2014-05-22 11:22:13,059 ERROR set task info error
+2014-05-22 11:22:13,371 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:13,371 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:13,371 ERROR set task info error
+2014-05-22 11:22:13,371 ERROR set task info error
+2014-05-22 11:22:25,323 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:25,323 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:25,324 ERROR set task info error
+2014-05-22 11:22:25,324 ERROR set task info error
+2014-05-22 11:22:25,605 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:25,605 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:25,606 ERROR set task info error
+2014-05-22 11:22:25,606 ERROR set task info error
+2014-05-22 11:22:28,204 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:22:28,204 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:22:40,345 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:40,345 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:40,345 ERROR set task info error
+2014-05-22 11:22:40,345 ERROR set task info error
+2014-05-22 11:22:40,634 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:40,634 ERROR Could not connect to 127.0.0.1:9999
+2014-05-22 11:22:40,634 ERROR set task info error
+2014-05-22 11:22:40,634 ERROR set task info error
+2014-05-22 11:26:35,996 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:26:35,996 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:28:30,605 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:28:30,605 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:30:16,482 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:30:16,482 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:32:40,572 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-22 11:32:40,572 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-27 16:40:29,331 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+
+2014-05-27 16:40:29,331 WARNING /usr/local/lib/python2.7/dist-packages/django/conf/urls/defaults.py:3: DeprecationWarning: django.conf.urls.defaults is deprecated; use django.conf.urls instead
+  DeprecationWarning)
+

@@ -1,0 +1,4 @@
+.Correct,.Wrong,.Exp{margin-left:20px;height:20px;line-height:19px;padding:2px 5px 2px 2em;font-size:12px}
+.Correct{background:#e6ffe6 url(../images/register.png) 5px 2px no-repeat;border:1px dashed #00a8ff;color:#008800;}
+.Wrong{background:#fff2e9 url(../images/register.png) 5px -79px no-repeat;border:1px dashed #ff6600;color:#8b2b34;}
+.Exp{background:#e2f5ff url(../images/register.png) 5px -134px no-repeat;border:1px dashed #00a8ff;color:#006699;}

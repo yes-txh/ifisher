@@ -1,0 +1,33 @@
+/*
+    TREE styles
+*/
+
+body { 
+	margin:0px;
+	padding:0px;
+	background:#f6f6f6; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1.125em;
+	color:#242424;	
+}
+
+#dbody{
+	margin:0;
+	padding:0;
+	height:1024px;
+}
+
+
+
+#treeDiv {
+	font-size:14px; 
+	/*position: absolute; 
+	left:20px;
+	top:20px;*/
+	margin:20px;
+}
+a {
+	color:#242424;
+}
+

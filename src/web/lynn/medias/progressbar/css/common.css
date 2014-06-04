@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+body{width:auto; margin:0px; font-size:84%; background:#eee; color:#333; font-family:Verdana, Geneva, sans-serif;}
+ul,ol,form,h1,h2,h3,h4,h5,h6,p{padding:0; margin:0; list-style-type:none;}
+.out_box{
+	width:70%;
+	min-width:700px;
+	border-left:1px solid white;
+	border-right:1px solid white;
+	margin:0px auto;
+}
+.mb10{margin-bottom:10px;}
+.f9{font-size:0.9em;}
+.f14{font-size:14px;}
+.in_box{min-height:550px; _height:550px; border-left:1px solid #ccc; border-right:1px solid #ccc; background:white; padding:1em 2.5em 0;}
+.header{padding:10px 20px 5px; border-bottom:1px solid #ccc; overflow:hidden; zoom:1;}
+.title{font-size:1.6em; text-align:center; margin:20px 0;}
+.main_con{padding:0 20px 20px;}
+.footer{padding-bottom:25px; text-align:center;}
+.test_list{padding:1em; font-size:1.1em; border-bottom:1px dashed #ccc; line-height:1.3; overflow:hidden; zoom:1;}
+.code{display:block; padding:10px; margin:5px 0; background:#eee; border:1px dashed #ccc; clear:both; zoom:1;}
+.code xmp,.code pre{margin:0; color:#00F; font-size:12px; white-space:pre-wrap; word-wrap:break-word;}
+.author_time{float:right; margin-top:34px; color:#787878; font-family:"Courier New", Courier, monospace;}

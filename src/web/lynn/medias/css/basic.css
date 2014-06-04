@@ -1,0 +1,896 @@
+/*
+    physical styles
+*/
+
+body { 
+	background:#eee; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1.125em;
+	color:#242424;
+	margin: 0;  
+	padding: 0;
+}
+/*===== header =====*/
+header{   
+	height:61px;
+	width:99.7%;
+	/*overflow:hidden;*/
+	position:fixed;
+	z-index:1; 
+	top:0;
+	left:0;  
+	border: 1px solid #eee;
+	background:#118080;
+}
+
+mymemu {
+	position: absolute;
+	margin-top: 300px;
+	height: 63px;
+	width:100%;
+	font-size:.8125em;
+	/*overflow:hidden;*/
+	background:#ddd;
+}
+
+mymenu over{   
+	color:#3a3a3a;
+	height:18px;  
+	line-height:15px;
+	text-decoration:none;
+	width:70px;
+	text-align:center;
+	float:left;
+	background:#ff0000;
+}
+mymenu li a {
+	background:#ff0000;
+}
+.kvmghdiv{
+	border: 7px solid #0184cd;
+	position:relative;
+	top:5px;
+	width:316px;
+	text-align:left;
+	margin: 18px 3px;
+	background: #0184cd;
+	font-size: 15px;
+}
+.specialdiv{
+	border: 7px solid #0184cd;
+	position:relative;
+	top:5px;
+	width:100px;
+	text-align:left;
+	margin: 18px 3px;
+	background: #0184cd;
+	font-size: 15px;
+}
+h1 {
+	font-size:15px;
+	color:#fff;
+	font-weight:normal;
+	position:relative;
+	left:10px;
+   	top:-5px;
+}
+   
+.container {
+	position: absolute;
+	margin-top: -10px;
+	height: 33px;
+	width:100%;
+	font-size:.8125em;
+	overflow:hidden;
+	background:#ddd;
+}
+
+.cross {
+        border: 2px solid #bbb;
+        position:relative;
+        top:65px;
+        width:420px;
+	height:56px;
+        margin: 20px;
+	overflow:hidden;
+	background: #118080;
+}
+.cross span{
+	text-align:left;
+	font-size: 15px;	
+	font-weight: bold;
+}
+.addoption {
+	height: 30px;
+	width:100%;
+	font-size:.8125em;
+	overflow:hidden;
+	background:#ddd;
+	border: 1px solid #eee;
+}
+
+td ul li {
+	list-style:none;
+	margin-left:-30px;
+}
+/*
+.job_installadd td ul li {
+        list-style:none;
+        float:left;
+        margin-left:-20px;
+	margin-right:15px;
+	margin-bottom:10px;
+}*/
+
+
+/*===== nav =====*/
+nav {
+	float:left;
+	margin-top: -13px;
+	margin-left:-40px;
+	height: 20px;
+}
+nav ul li {
+	list-style:none;
+	float:left;
+	border: 1px solid #eee;
+}
+	nav ul li a {
+		font-size:15px;
+		color:#404040;
+		height:27px;
+		line-height:28px;
+		text-decoration:none;
+		width:70px;
+		text-align:center;
+		float:left;
+		background:#fff;
+		background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+		background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		nav ul li a#net_global {
+			width:80px;
+		}
+		nav ul li a#return {
+			width:90px;
+		}
+		nav ul li a#return2 {
+			width:105px;
+		}
+		nav ul li a#return3 {
+			width:135px;
+		}
+		nav ul li a.current,  nav ul li a:hover {
+			padding-bottom:5px;
+		}
+		
+		nav ul li:nth-of-type(2) a {
+			background:#0184cd;
+			background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		nav ul li:nth-of-type(3) a {
+			background:#7cbc19;
+			background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		nav ul li:nth-of-type(4) a {
+			background:#ffbc00;
+			background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		nav ul li:nth-of-type(5) a {
+			background:#f07502;
+			background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		nav ul li:nth-of-type(6) a {
+			background:#d00110;
+			background-image: gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ddd, #ccc); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+
+
+/*===== nav =====*/
+header nav {
+	float:left;
+	margin-top: -12px;
+	margin-left:-37px;
+}
+header nav ul li {
+	list-style:none;
+	float:left;
+	border: 0px;
+}
+	header nav ul li a {
+		font-size:15px;
+		color:#3a3a3a;
+		height:28px;
+		line-height:28px;
+		text-decoration:none;
+		width:70px;
+		text-align:center;
+		float:left;
+		background:#fff;
+		background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+		background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li a#net_global {
+			width:80px;
+		}
+		header nav ul li a#num5 {
+			width:80px;
+		}
+		header nav ul li a#num6 {
+			width:90px;
+		}
+		header nav ul li a#num7 {
+			width:105px;
+		}
+		header nav ul li a#return {
+			width:90px;
+		}
+		header nav ul li a#return2 {
+			width:105px;
+		}
+		header nav ul li a.current, header nav ul li a:hover {
+			padding-bottom:5px;
+		}
+		
+		header nav ul li:nth-of-type(2) a {
+			background:#0184cd;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li:nth-of-type(3) a {
+			background:#7cbc19;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li:nth-of-type(4) a {
+			background:#ffbc00;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li:nth-of-type(5) a {
+			background:#f07502;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+		header nav ul li:nth-of-type(6) a {
+			background:#d00110;
+			background-image: gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -moz-linear-gradient(top, #ccffff, #77dddd); /* FF3.6 */
+			background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #017bc8),color-stop(1, #018ed3)); /* Saf4+, Chrome */
+			filter:  progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3'); /* IE6,IE7 */
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#017bc8', EndColorStr='#018ed3')"; /* IE8 */
+		}
+
+
+
+a {
+	color:#242424;
+}
+
+a makeing
+{
+        color:white;
+}
+.making_new
+{
+        /*margin: 200px;*/
+        top:65px;
+	width:120px;
+	text-align:left;
+	margin: 20px;
+        
+        /*right: 0px;*/ 
+        position: relative;
+        font-size: 15px;
+        /*background: #118080;*/
+        background: #118080;/**/
+        line-height: 26px;
+        text-decoration: none;
+        text-align: center;
+}
+
+.making_new_7
+{
+        /*margin: 200px;*/
+        top:65px;
+	width:200px;
+	text-align:left;
+	margin: 20px;
+        
+        /*right: 0px;*/ 
+        position: relative;
+        font-size: 15px;
+        /*background: #118080;*/
+        background: #118080;/**/
+        line-height: 26px;
+        text-decoration: none;
+        text-align: center;
+}
+/* module */
+.module,.appmgt,.applist_user,.applist,.appvirt,.serverlist,.virtlist,.appadd,.serveradd,.virtadd,.virt_add_way,.jobadd
+{
+	border: 1px solid #ccc;
+	position:relative;
+	top:75px;
+	width:300px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.user_list,.usermodule,.useradd,.userform,.grouplist,.groupadd,.changepwd,.perm_list{
+	border: 1px solid #ccc;
+	position:relative;
+	top:75px;
+	width:300px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.imglist,.imgadd,.imglist_virt,.isolist,.isoadd,.oslist,.osadd,.run_typelist,.run_typeadd {
+	border: 1px solid #ccc;
+	position:relative;
+	top:75px;
+	width:800px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.job_installlist,.job_installadd,.job_runlist,.job_runadd,.job_stoplist,.job_stopadd{
+	border: 1px solid #ccc;
+	position:relative;
+	top:75px;
+	width:600px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.workerjob_list,.workerjob_add,.workertask_list,.workertask_list_job,.workertask_add{
+	border: 1px solid #ccc;
+	position:relative;
+	top:75px;
+	width:600px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.ghjob_list,.ghjob_add,.ghtask_list,.ghtask_list_job,.ghtask_add{
+	border: 1px solid #ccc;
+	position:relative;
+	top:75px;
+	width:600px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.file_list,.file,.ghapp_list,.ghapp_add,.gh_list,.gh_add,.pvc_list,.node_list{
+        border: 1px solid #ccc;
+        position:relative;
+        top:75px;
+        width:950px;
+        text-align:left;
+        margin: 20px;
+        background: #eeeeee;
+        font-size: 15px;
+}
+.imglist_virt{
+	width:900px;
+}
+.isolist{
+	width:500px;
+}
+.isoadd{
+	width:400px;
+}
+.oslist{
+	width:500px;
+}
+.osadd{
+	width:400px;
+}
+.run_typelist{
+        width:500px;
+}
+.run_typeadd{
+        width:400px;
+}
+.file_list{
+	width:1250px;
+}
+.file{
+	width:1200px;
+}
+.ghapp_list{
+        width:900px;
+}
+.ghapp_add{
+        width:500px;
+}
+.gh_list{
+        width:950px;
+}
+.gh_add{
+        width:400px;
+}
+.pvc_list{
+        width:550px;
+}
+.node_list{
+        width:750px;
+}
+.job_installlist{
+	width:850px;
+}
+.job_installadd{
+	width:500px;
+}
+.job_runlist{
+        width:850px;
+}
+.job_runadd{
+        width:500px;
+}
+.job_stoplist{
+        width:850px;
+}
+.job_stopadd{
+        width:500px;
+}
+.workerjob_list {
+	width:930px;
+}
+.workerjob_add{
+	width:500px;
+}
+
+.workertask_list {
+	width:1000px;
+}
+.workertask_list_job {
+        width:850px;
+}
+
+.workertask_add{
+	width:500px;
+}
+
+.ghjob_list {
+	width:1050px;
+}
+.ghjob_add{
+	width:500px;
+}
+
+.ghtask_list {
+	width:1000px;
+}
+.ghtask_list_job {
+        width:950px;
+}
+
+.ghtask_add{
+	width:500px;
+}
+
+.imgadd {
+	width:400px;
+}
+
+/* app */
+.appmgt {
+	width:500px;
+}
+.applist {
+	width:1000px;
+}
+.applist_user {
+	width:950px;
+}
+.appvirt {
+	width:950px;
+}
+.appadd {
+	width:480px;
+}
+/* physical */
+.serverlist {
+	width:850px;
+}
+.virtlist {
+	width:850px;
+}
+.serveradd {
+	width:450px;
+}
+.virtadd {
+	width:550px;
+}
+.jobadd {
+        width:550px;
+}
+.virt_add_way {
+	width:350px;
+}
+.virtaddxml {
+	width:800px;
+}
+/* user */
+.user_list {
+	width:900px;
+}
+.usermodule {
+	width:800px;
+}
+.userform {
+	width:700px;
+}
+.useradd {
+	width:400px;
+}
+.perm_list {
+	width:1050px;
+}
+.grouplist {
+	width:700px;
+}
+.groupadd {
+	width:400px;
+}
+/* personal information */
+.personmgt,.personperm{
+	border: 1px solid #ccc;
+	position:relative;
+	top:65px;
+	width:300px;
+	text-align:left;
+	margin: 20px;
+	background: #eeeeee;
+	font-size: 15px;
+}
+.personperm {
+	width:800px;
+}
+.changepwd {
+	width:350px;
+}
+/* change password */
+.changepassword {
+	border: 1px solid #ccc;
+	position:relative;
+	top:120px;
+	left:450px;
+	width:300px;
+	margin: 20px;
+	background: #fff;
+	font-size: 15px;
+}
+.myhelptext {
+	margin-left:15px;
+	color: red;
+}
+
+/* table */
+ caption {
+	/*margin: 0 0 5px 0;*/
+	margin: 0;
+	padding: 2px 5px 3px 5px;
+	font-size: 15px;
+	text-align: left;
+	line-height:25px;
+	font-weight: bold;
+	background: #118080;
+	color: white;
+}
+
+.tables {
+	background-color:#eeeeee;
+	border-collapse:collapse;
+	width:100%;
+}
+tr {
+	border-top:1px solid white;
+	background-color:#eeeeee;
+	line-height:25px;
+	text-align:left;
+	padding-right:5px;
+}
+th {
+	font-weight:normal; 
+}
+th, td{
+	/*vertical-align:bottom;*/
+	padding-left:7px;
+}
+/*th label{
+	padding-left:7px;
+}*/
+.tr1{
+	background-color:#eeeeee;
+}
+.tr2{
+	background-color:#cccccc;
+}
+
+a {
+	text-decoration:none;
+}
+
+#add th {
+        text-align:right;
+        line-height:45px;
+        width:120px;
+}
+.appadd th {
+	text-align:right;
+	line-height:45px;
+	width:120px;
+}
+.serveradd th {
+	text-align:right;
+	line-height:45px;
+}
+
+.virtadd th {
+	text-align:right;
+	line-height:45px;
+	width:120px;
+}
+.jobadd th {
+	text-align:right;
+	line-height:45px;
+	width:120px;
+}
+.virt_add_way th {
+        text-align:right;
+        line-height:45px;
+        width:120px;
+}
+
+.useradd th {
+	text-align:right;
+	line-height:45px;
+}
+.groupadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.imgadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.isoadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.osadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.run_typeadd th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+
+.job_installadd th {
+	text-align:right;
+	line-height:45px;
+	width:80px;
+}
+.job_runadd th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.job_stopadd th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.workerjob_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.workertask_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.ghapp_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.ghjob_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.ghtask_add th {
+        text-align:right;
+        line-height:45px;
+        width:80px;
+}
+.changepwd th {
+	text-align:right;
+	line-height:45px;
+}
+.tdright {
+	padding-left:40px; 
+}
+.tdleft {
+	padding-right:5px; 
+}
+
+.formfield {
+	margin-top: 4px;
+	margin-bottom: 3px;
+}
+.addsubmit{
+	background: #118080;
+	color: white;
+}
+.in_submit{
+        color: blacki;
+	border:1px solid #aaa;
+        margin: 3px;
+}
+.submit{
+	color: black;
+	border:1px solid #aaa;
+	margin: 3px;
+}
+
+/* list */
+thead {
+	text-align: left;
+}
+
+.errorlist {
+	float:right;
+	margin:0px 0px 0px 0px;
+}
+#id_name {
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+
+/* ACTION ICONS */
+
+.addlink {
+	padding-left: 12px;
+	background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
+}
+
+.arrowright {
+	padding-left: 22px;
+	background: url(../img/tooltag-arrowright.gif) 0 .2em no-repeat;
+}
+
+.changelink {
+	padding-left: 12px;
+	background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
+}
+
+.searchlink {
+        padding-left: 20px;
+	padding-top:2px;
+        background: url(../img/icon_searchbox.png) 0 .2em no-repeat;
+}
+
+.deletelink {
+	padding-left: 12px;
+	background: url(../img/icon_deletelink.gif) 0 .2em no-repeat;
+}
+
+
+
+/* charts */
+.charts {
+	border: 1px solid #ccc;
+	width:482px;
+	margin: 20px;
+	position:relative;
+	float:left;
+	top:75px;
+	background: #f6f6f6;
+	font-size: 15px;
+}
+.charts img {
+	margin-bottom:-4px;
+}
+.chartshead{   
+	height:30px;
+	overflow:hidden;
+	background:#118080;   
+}
+  .chartshead span {
+	font-size:15px;
+	color:#fff;
+	font-weight:normal;
+	position:relative;
+	left:10px;
+	top:5px;
+}
+.select_rrd {
+	margin: 3px 15px 3px 0px;
+	padding:0;
+	border:1px solid #aaa;
+	float: right;
+}
+.xml {
+	margin-left: 5px;
+}
+
+.xml_box {
+    width: 400px; 
+    min-height: 120px; 
+    max-height: 300px;
+    _height: 120px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding: 3px; 
+    outline: 0; 
+    border: 1px solid #a0b3d6; 
+    font-size: 12px; 
+    word-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+/* color */
+.white {
+        color:white;
+        line-height:25px;
+        margin:10px;
+}
+
+/*--------------over----------------*/

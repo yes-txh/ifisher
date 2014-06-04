@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="refresh" content="300">
+        <link rel="stylesheet" type="text/css" href="/media/css/basic.css"/>
+        <script type="text/javascript" src="/media/js/jquery-1.4.2.min.js" ></script>
+        <script type="text/javascript" src="/media/mjs/table.js"></script>
+        <script type="text/javascript" src="/media/mjs/rrd.js"></script>
+</head>
+
+<body>
+        <!-- header -->
+        <header>
+                <h1><span>主动平台</span></h1>
+                <div class="container">
+                <nav>
+                <ul>
+                        <li><a href="/job_add">作业提交</a></li>
+                        <li><a href="/task_state_info_list">任务状态监控</a></li>
+                        <li><a href="/job_add">作业结果查询</a></li>
+                </ul>
+                </nav>
+                </div>
+        </header>
+	<!-- #content -->
+	<content>
+	<div class="virtlist">
+                <table class="tables">
+                        <caption><span>任务状态信息</span></caption>
+			<thead>
+                                <tr>
+                                {% for field in tasklistform %}
+                                        <th scope="col">
+                                                <div class="text"><a>{{ field.label_tag }}</a></div>
+                                        </th>
+                                {% endfor %}
+                                </tr>
+                        </thead>
+                        <tbody>
+                        {% for task in task_state_info_list%}
+                                <tr>
+                                        <td><a>{{task.job_id}}</a></td>
+                                        <td><a>{{task.task_id}}</a></td>
+                                        <td><a>{{task.state}}</a></td>
+                                        <td><a>{{task.machine_ip}}</a></td>
+					<td><a>{{task.timeout_times}}</a></td>
+					<td><a>{{task.restart_times}}</a></td>
+
+                                </tr>
+                        {% endfor %}
+                        </tbody>
+			<tr><td colspan='15'>
+                        {% if task_state_info_list.has_previous %}
+                                <a href="?page={{ task_state_info_list.previous_page_number }}">上一页</a>
+                        {% endif %}
+
+                        <span class="current">
+                                Page {{ task_state_info_list.number }} / {{ task_state_info_list.paginator.num_pages }}
+                        </span>
+                        {% if task_state_info_list.has_next %}
+                                <a href="?page={{ task_state_info_list.next_page_number }}">下一页</a>
+                        {% endif %}
+                        </td></tr>
+                </table>
+        </div>
+
+	</content>
+</body>
+</html>

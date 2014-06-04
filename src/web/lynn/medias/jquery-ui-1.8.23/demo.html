@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <link type="text/css" href="css/smoothness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+  
+  <script>
+  $(function() {
+	$("#progressbar").progressbar({ value: 10,
+		  complete: function(event, ui) { alert('has complete!!');  }
+	});
+	updateProgressbarValue();
+	function updateProgressbarValue() { 
+		var newvalue= $("#progressbar").progressbar("value")+10;
+		$("#progressbar").progressbar("option","value",newvalue);
+		if (newvalue >= 100)
+			return;
+		setTimeout(updateProgressbarValue, 500);
+	}
+
+	/*$("#progressbar1").progressbar({
+		interval:2000,
+		increment: 100
+	}).progressbar("start");*/
+	
+  });
+  </script>
+</head>
+<body style="font-size:62.5%;">
+  
+<div id="progressbar"></div>
+<div id="progressbar1"></div>
+</body>
+</html>

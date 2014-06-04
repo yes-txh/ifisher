@@ -1,0 +1,12 @@
+1 install cmake-2.6.0, thrift-0.9.0, log4cplus-1.1.1, gtest-1.3.0
+2 install libvirt kvm lxc
+3 build:
+    cd $LYNN_HOME
+    mkdir build
+    cd build
+    cmake ..      # twice
+    make
+    make install  # install scheduler collector executor into bin/
+
+To compile common lib, you need to do the following:
+yum instal glibc-devel.i686

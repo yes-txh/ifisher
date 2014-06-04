@@ -1,0 +1,6 @@
+<job>
+    <xml_type>homogeneous</xml_type>
+    <group>Group A</group>
+    <priority>high</priority>
+    <job_type>batch</job_type>
+</job>

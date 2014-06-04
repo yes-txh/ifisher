@@ -1,0 +1,9 @@
+$(document).ready(function(){
+	$("button").click(function(){
+		alert("正在导入数据，请耐心等待")
+		$.get('/ajax/ct_datainput',function(data){
+			alert("导入数据成功")
+                	//alert(data)
+	        });	
+	});
+});

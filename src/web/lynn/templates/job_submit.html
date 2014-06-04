@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<link rel="stylesheet" type="text/css" href="/media/css/basic.css"/>
+	<script type="text/javascript" src="/media/js/jquery-1.4.2.min.js" ></script>
+
+</head>
+<body>
+	<!-- header -->
+	<header>
+		<h1><span>主动平台</span></h1>
+		<div class="container">
+		<nav>
+		<ul>
+			<li><a href="/job_add">作业提交</a></li>
+			<li><a href="/task_state_info_list">任务状态监控</a></li>
+			<li><a href="/job_add">作业结果查询</a></li>
+		</ul>
+		</nav>
+		</div>      
+	</header>
+	<!-- #content -->
+	<content>	
+		<div class="jobadd">
+			<form method="post"  enctype="multipart/form-data" action="/job_add/">
+			<table class="tables">
+				<caption><span>作业提交</span></caption>
+				{{form.as_table}}
+				<tr><td colspan='15'><input class="addsubmit" type="submit" value="提交"/>  </td></tr>
+			</table>
+			</form>
+		</div>
+	</content>
+</body>
+</html>

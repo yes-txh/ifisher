@@ -1,0 +1,21 @@
+/*
+    workhistory styles
+*/
+
+/* Global properties ======================================================== */
+body { 
+	background:#118080;
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	line-height:1.125em;
+	color:#242424;
+}
+
+/* Header */
+#head {
+	height:45px;
+	overflow:hidden;
+	background:#118080;
+}
+

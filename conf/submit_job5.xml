@@ -1,0 +1,27 @@
+<job>
+    <xml_type>heterogeneous</xml_type>
+    <group>common</group>
+    <priority>high</priority>
+    <job_type>batch</job_type>
+
+    <tasks>
+        <task>
+            <task_id>1,2</task_id>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <vm_type>KVM</vm_type>
+            <img_template>ubuntu.qco</img_template>
+            <exe_path>exe1</exe_path>
+            <hard_requirement>MachineType == &quot;A&quot;</hard_reqirement>
+            <soft_requirement value="20">LoadAvg &lt;= 0.7</soft_requirement>
+            <soft_requirement value="20">LoadAvg &gt;= 0.2</soft_requirement>
+        </task>
+        <task>
+            <task_id>3,4</task_id>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <vm_type>LXC</vm_type>
+            <exe_path>exe2</exe_path>
+        </task> 
+    </tasks>
+</job>

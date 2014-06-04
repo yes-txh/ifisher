@@ -1,0 +1,28 @@
+<job>
+    <xml_type>homogeneous</xml_type>
+    <group>common</group>
+    <priority>high</priority>
+    <job_type>batch</job_type>
+    <sched_model>WideDistribution</sched_model>
+
+    <need_cpu>1</need_cpu>
+    <need_memory>512</need_memory>
+    <vm_type>KVM</vm_type>
+    <img_template>ubuntu.qcow2</img_template>
+    <size>10</size>
+    <app_name>getURL</app_name>
+    <app_file>getURL</app_file>
+    <timeout>20</timeout>
+
+    <tasks>
+        <task>
+            <exe_path>getURL</exe_path>
+            <task_num>2</task_num>
+        </task>
+        <task>
+            <exe_path>getURL -b</exe_path>
+            <task_num>2</task_num>
+        </task>
+    </tasks>
+
+</job>

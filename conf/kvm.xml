@@ -1,0 +1,39 @@
+<domain type = 'kvm'>
+    <name>T_NAME</name>
+    <memory>T_MEMORY</memory>
+    <vcpu>T_VCPU</vcpu>
+    <os>
+        <type arch = 'x86_64' machine = 'pc'>hvm</type>
+        <boot dev = 'T_BOOT'/>
+    </os>
+    <features>
+        <acpi/>
+        <apic/>
+        <pae/>
+    </features>
+    <clock offset = 'localtime'/>
+    <on_poweroff>destroy</on_poweroff>
+    <on_reboot>restart</on_reboot>
+    <on_crash>destroy</on_crash>
+    <devices>
+        <emulator>/usr/bin/kvm</emulator>
+        <disk type = 'file' device = 'disk'>
+            <driver name = 'qemu' type = 'qcow2'/>
+            <source file = 'T_IMG_LOCATION'/>
+            <target dev = 'hda' bus = 'ide'/>
+        </disk>
+        <disk type = 'file' device = 'cdrom'>
+            <source file = 'T_ISO_LOCATION'/>
+            <target dev = 'hdb' bus = 'ide'/>
+        </disk> 
+        <interface type = 'bridge'>
+            <source bridge = 'br0'/>
+        </interface>
+	<interface type = 'network'>
+            <source network = 'default'/>
+        </interface>
+        <input type ='tablet' bus='usb'/>
+        <input type = 'mouse' bus = 'ps2'/>
+        <graphics type = 'vnc' port = '-1' autoport='yes' listen = '0.0.0.0' keymap = 'en-us'/>
+    </devices>
+</domain>

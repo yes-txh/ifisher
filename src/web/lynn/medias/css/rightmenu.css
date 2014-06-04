@@ -1,0 +1,47 @@
+.DreamMenu { 
+position:absolute; 
+visibility:hidden; 
+z-index:100; 
+overflow:hidden; 
+width:150px; 
+background-color:buttonface; 
+border:dimgray 1px solid !important; 
+border:buttonhighlight menu menu buttonhighlight 2px outset; 
+padding:1px !important; 
+padding:1px 1px 1px 0px; 
+font-size:12px; 
+} 
+.DreamMenu ul { 
+margin:1px; 
+border-bottom:buttonhighlight 1px solid; 
+border-top:buttonshadow 1px solid; 
+} 
+.DreamMenu a { 
+display:block; 
+width:100%; 
+padding:1px 2px 2px 20px; 
+cursor:default; 
+text-decoration:none; 
+color:#000000; 
+} 
+.DreamMenu a:hover { 
+background:highlight; 
+color:#ffffff; 
+} 
+
+/* ACTION ICONS */
+
+.addlink {
+    padding-left: 12px;
+    background: url(../img/icon_addlink.gif) 0 .2em no-repeat;
+}
+
+.changelink {
+    padding-left: 12px;
+    background: url(../img/icon_changelink.gif) 0 .2em no-repeat;
+}
+
+.deletelink {
+    padding-left: 12px;
+    background: url(../img/icon_deletelink.gif) 0 .2em no-repeat;
+}

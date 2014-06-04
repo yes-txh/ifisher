@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<submitter_img>
+  <user>common</user>
+  <name>ubuntu.qcow2</name>
+  <size>10</size>
+  <is_update_all>false</is_update_all>
+  <local_path>/home</local_path>
+</submitter_img>

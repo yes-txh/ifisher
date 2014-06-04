@@ -1,0 +1,6 @@
+/usr/local/include/zookeeper/recordio.h
+line 76
+
+#ifndef htonll
+int64_t htonll(int64_t v);
+#endif 

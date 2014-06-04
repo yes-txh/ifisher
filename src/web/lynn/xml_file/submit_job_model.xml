@@ -1,0 +1,14 @@
+<job>
+    <xml_type>homogeneous</xml_type>
+    <group>common</group>
+    <priority>T_PRIORITY</priority>
+    <job_type>batch</job_type>
+    <sched_model>T_SCHED_MODEL</sched_model>
+
+    <need_cpu>T_CPU</need_cpu>
+    <need_memory>T_MEMORY</need_memory>
+    <vm_type>KVM</vm_type>
+    <img_template>T_IMG</img_template>
+    <size>10</size>
+    <app_name>APP_NAME</app_name>
+    <timeout>T_TIME</timeout>

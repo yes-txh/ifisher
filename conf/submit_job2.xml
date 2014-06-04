@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='utf-8'?>
+<job>
+    <group>Group A</group>
+    <priority>high</priority>
+    <job_type>batch</job_type>
+
+    <tasks>
+        <task_num>4</task_num>
+        <task>
+            <task_id>1</task_id>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <exe_path>my_loop</exe_path>
+        </task>
+        <task>
+            <task_id>2</task_id>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <exe_path>my_loop</exe_path>
+        </task>
+        <task>
+            <task_id>3</task_id>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <exe_path>my_loop</exe_path>
+        </task>
+        <task>
+            <task_id>4</task_id>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <exe_path>my_loop</exe_path>
+        </task> 
+    </tasks>
+    <constraints>
+        <edge>
+            <start>1</start>
+            <end>2</end>
+            <weight>-100</weight>
+        <edge>
+        <edge>
+            <start>1</start>
+            <end>3</end>
+            <weight>-100</weight>
+        <edge>
+        <edge>
+            <start>1</start>
+            <end>4</end>
+            <weight>-100</weight>
+        <edge>
+        <edge>
+            <start>2</start>
+            <end>3</end>
+            <weight>-80</weight>
+        <edge>
+        <edge>
+            <start>2</start>
+            <end>4</end>
+            <weight>-80</weight>
+        <edge>
+        <edge>
+            <start>3</start>
+            <end>4</end>
+            <weight>-80</weight>
+        <edge>
+    </constraints>
+</job>

@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<job>
+    <group>Group A</group>
+    <priority>high</priority>
+    <job_type>batch</job_type>
+    <model></model>
+
+    <tasks>
+        <task>
+            <need_cpu>1</need_cpu>
+            <need_memory>200</need_memory>
+            <exe_path>my_loop</exe_path>
+            <num>5</num>
+        </task>
+        <task>
+            <need_cpu>2</need_cpu>
+            <need_memory>300</need_memory>
+            <exe_path>my_loop</exe_path>
+            <num>5</num>
+        </task>
+    </tasks>
+</job>
